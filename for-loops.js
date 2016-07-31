@@ -5,3 +5,11 @@ Stop execution of the loop if the counter variable's value is greater than 120. 
 for (var i = 5; i < 120; i += 5) {
   console.log("The current value is: " + i);
 }
+
+/* Write a for loop with a counter variable initialized at 4096.
+Each time the loop executes divide the counter variable's value by 2.
+Use console.log() to output its value every time. When the counter variable's value is 1, stop execution. */
+
+for (var i = 4096; i > 1; i /= 2) {
+  console.log("The current value is: " + i);
+}
