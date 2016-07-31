@@ -24,8 +24,28 @@ for (var i = 0; i < americanPresidents.length; i++) {
   console.log("The " + (i + 1) + " President was " + americanPresidents[i]);
 }
 
+/* Use can use another kind of for loop to iterate over objects. Iterate over the
+object below and use console.log() to output the names of the keys in the
+object. */
 
+var antSpecies = {
+  argentine: {},
+  army: {},
+  bigHeaded: {},
+  black: {},
+  bull: {},
+  carpenter: {},
+  crazy: {},
+  fire: {},
+  glider: {},
+  honeyPot: {},
+  jackJumper: {}
+}
 
+for (var prop in antSpecies) {
+  console.log(Object.keys(antSpecies));
+  break;
+}
 
 
 
